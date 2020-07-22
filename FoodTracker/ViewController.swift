@@ -14,6 +14,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     @IBOutlet weak var labelName: UILabel!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var ratingControl: RatingControl!
     
     
     override func viewDidLoad() {
@@ -61,11 +62,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         imagePickerController.delegate = self
         
         present(imagePickerController, animated: true, completion: nil)
-    }
-    
-    @IBAction func setLabel(_ sender: UIButton) {
-        labelName.text = nameTextField.text
-        
     }
     
     

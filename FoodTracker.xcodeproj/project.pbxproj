@@ -15,6 +15,7 @@
 		20A5710724BD603900D0A386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A5710524BD603900D0A386 /* LaunchScreen.storyboard */; };
 		20A5711224BD603900D0A386 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A5711124BD603900D0A386 /* FoodTrackerTests.swift */; };
 		20A5711D24BD603900D0A386 /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A5711C24BD603900D0A386 /* FoodTrackerUITests.swift */; };
+		20A5712B24C1454900D0A386 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A5712A24C1454900D0A386 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		20A5711824BD603900D0A386 /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A5711C24BD603900D0A386 /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		20A5711E24BD603900D0A386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A5712A24C1454900D0A386 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				20A5710324BD603900D0A386 /* Assets.xcassets */,
 				20A5710524BD603900D0A386 /* LaunchScreen.storyboard */,
 				20A5710824BD603900D0A386 /* Info.plist */,
+				20A5712A24C1454900D0A386 /* RatingControl.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A5712B24C1454900D0A386 /* RatingControl.swift in Sources */,
 				20A570FF24BD603700D0A386 /* ViewController.swift in Sources */,
 				20A570FB24BD603700D0A386 /* AppDelegate.swift in Sources */,
 				20A570FD24BD603700D0A386 /* SceneDelegate.swift in Sources */,
